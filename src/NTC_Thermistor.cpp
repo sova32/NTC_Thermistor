@@ -1,7 +1,4 @@
-/**
-	Created by Yurii Salimov, February, 2018.
-	Released into the public domain.
-*/
+
 #include "NTC_Thermistor.h"
 
 NTC_Thermistor::NTC_Thermistor(
