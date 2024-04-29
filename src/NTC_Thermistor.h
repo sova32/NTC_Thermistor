@@ -1,42 +1,4 @@
-/**
-  NTC_Thermistor - class describes a set of methods
-  for working with a NTC thermistor and reading
-  a temperature in Celsius, Fahrenheit and Kelvin.
 
-  Instantiation, for example, to NTC 3950 thermistor:
-  Thermistor* thermistor = new NTC_Thermistor(A1, 8000, 100000, 25, 3950);
-
-  Read temperature:
-    double celsius = thermistor->readCelsius();
-    double kelvin = thermistor->readKelvin();
-    double fahrenheit = thermistor->readFahrenheit();
-
-  v.1.1.2:
-  - updated conversion from celsius to fahrenheit;
-  - added conversion from kelvin to fahrenheit;
-  - optimized calls of private methods.
-
-  v.1.1.3:
-  - fixed bug in setReadingsNumber() method.
-
-  v.1.1.4:
-  - removed deprecated init() method;
-  - replaced pinMode from INPUT_PULLUP to INPUT.
-
-  v.2.0.0
-  - implemented Thermistor interface;
-  - removed methods for averaging result.
-
-  v.2.0.2
-  - optimized resistanceToKelvins(*) method;
-  - optimized constructor;
-  - updated documentation.
-
-  https://github.com/YuriiSalimov/NTC_Thermistor
-
-  Created by Yurii Salimov, February, 2018.
-  Released into the public domain.
-*/
 #ifndef NTC_THERMISTOR_H
 #define NTC_THERMISTOR_H
 
