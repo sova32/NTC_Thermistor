@@ -42,17 +42,3 @@ Connect to the analog side of an Arduino Uno. Run GND through the thermistor, th
     // For older devices.
     double farenheit = thermistor.readFarenheit();
 ```
-
-### Examples
-
-[Serial Reading](/examples/SerialReading/SerialReading.ino)
-
-[Average Measurement](/examples/AverageMeasurement/AverageMeasurement.ino)
-
-[Smooth Measurement](/examples/SmoothMeasurement/SmoothMeasurement.ino)
-
-[STM32...](/examples/STM32/STM32.ino)
-
-[All examples...](/examples)
-
-Created by Yurii Salimov.
